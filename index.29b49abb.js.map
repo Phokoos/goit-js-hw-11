@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,QAAQC,IAAI,mBCEZD,QAAQC,IAAI","sources":["src/js/testTwo.js","src/js/test.js"],"sourcesContent":["console.log(\"cl from testTwo\");","\n\nconsole.log(\"Priject works\");\n\n\n\nimport './testTwo';\n"],"names":["console","log"],"version":3,"file":"index.29b49abb.js.map"}
