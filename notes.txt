@@ -1,0 +1,20 @@
+1. import axios lib
+2. import Notiflix lib
+
+3. write html form for searching
+
+4. Use API "Pixabay" and creat fetch method
+
+5. Write login for empty array {}
+
+6. Write div for photo lib and creat basic HTML markup
+
+7. Use pafination and creat counter for it 
+
+Extra tasks 
+8. Message with count of photo
+
+9. import simpleLightbox lib 
+
+10. Make slow page scroll
+11. Endless scroll
