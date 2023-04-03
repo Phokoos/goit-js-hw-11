@@ -1,5 +1,25 @@
+// Color vars
 $base-color: rgb(18, 0, 133);
 $secondary-color: rgb(18, 118, 211);
+
+// Animations frames
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+@keyframes scalePhoto {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.085;
+  }
+} 
 
 .form-container{
 	padding-top: 10px;
@@ -8,9 +28,6 @@ $secondary-color: rgb(18, 118, 211);
 	display: flex;
 	justify-content: center;
 	background-color: $secondary-color;
-}
-
-.search-form {
 }
 
 .search-form__input {
@@ -99,28 +116,7 @@ $secondary-color: rgb(18, 118, 211);
 	align-items: center;
 }
 
-// .load-more{
-// 	margin: 10px;
-// 	padding: 10px;
-// 	height: 50px;
-// 	width: 150px;
-
-// 	display: none;
-// 	margin-left: auto;
-// 	margin-right: auto;
-
-// 	border-radius: 5px;
-// 	font-size: 20px;
-// 	color: $base-color;
-// 	border: 2px solid $base-color;
-
-// 	// &:focus,
-	
-// }
-
-
 // Loader
-
 .loader{
 	opacity: 0;
 	display: block;
@@ -142,23 +138,3 @@ $secondary-color: rgb(18, 118, 211);
 .loader.show {
 	opacity: 1;
 }
-
-
-
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} 
-
-@keyframes scalePhoto {
-  0% {
-    scale: 1;
-  }
-  100% {
-    scale: 1.085;
-  }
-} 
