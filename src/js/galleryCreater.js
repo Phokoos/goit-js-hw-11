@@ -55,6 +55,10 @@ function requestToApiAfterScrolling() {
 formEl.addEventListener("submit", (action) => {
 	action.preventDefault();
 
+	// Checking for empty values in input
+	if ("" === formInputEl.value.trim()) {
+		return Notiflix.Notify.failure("You don`t write any text in input form");
+	}
 	//  Checking similar values in input
 	if (latesInputValue === formInputEl.value) {
 		return 
